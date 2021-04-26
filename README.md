@@ -13,3 +13,5 @@ Check it live at https://jordache.me/portfolio/outrun
 ! It is not mobile friendly so don't even try it, it was not the purpose of this app.
 
 All code (HTML, CSS, JS) was written by me, nothing from any tutorials.
+
+![OutRun Screenshot](https://github.com/alex-iordache/outrun/blob/master/screenshot.png?raw=true "OutRun")
