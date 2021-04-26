@@ -20,7 +20,7 @@ All code (HTML, CSS, JS) was written by me, nothing from any tutorials.
 
 2 - click anywhere on the map to add a workout at that location
 
-3 - a form will appear - you can select between Running and Cycling
+3 - a form will appear - you can select between Running and Cycling. There is no Submit button - just press Enter.
 
 4 - if you add at least 2 workouts a Filter/Sort section will appear. You can filter out Rides or Runs and you can sort by Distance or Duration.
 
