@@ -26,4 +26,6 @@ All code (HTML, CSS, JS) was written by me, nothing from any tutorials.
 
 5 - when you close the app, everything will be stored on your local storage. Come back and you'll still have your workouts there.
 
+6 - each Workout in the list also has two functions possible: a) If you click it will bring the map location into focus b) You can erase it by clicking the top-right X button.
+
 ![OutRun Screenshot](https://github.com/alex-iordache/outrun/blob/master/screenshot.png?raw=true "OutRun")
