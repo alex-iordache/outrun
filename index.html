@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutRun - Track your Runs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        
+        <div class="list-container">
+            <div class="sort hidden">  
+                        <div class="sort-type"><span class="runs sort-active">Runs</span> / <span class="rides sort-active">Rides</span></div>   
+                        <div class="sort-distance">Distance <span class="sort-distance-down">🔻</span><span class="sort-distance-up">🔺</span></div>
+                        <div class="sort-duration">Duration  <span class="sort-duration-down">🔻</span><span class="sort-duration-up">🔺</span></div>
+                    </div>
+            <div class="intro-message">
+                <p>Click anywhere on the map to add a Workout (Running or Cycling) at that location.</p>
+                <p>This app uses your current location to load the map - if you refused the use of your location the app will not work.</p>
+            </div>
+                <form class="form form--hidden" action="#" method="GET">
+                    <label for="type">Type</label>
+                    <select name="type" id="type">
+                        <option value="running" selected>Running</option>
+                        <option value="cycling">Cycling</option>
+                    </select>
+                    <label for="distance">Distance</label>
+                    <input type="text" placeholder="km" id="distance">
+                    <label for="duration">Duration</label>
+                    <input type="text" placeholder="min" id="duration">
+                    <label for="cadence" id="cadence-label">Cadence</label>
+                    <input type="text" placeholder="step/min" id="cadence">
+                    <label for="elevGain" class="hidden" id="elevGain-label">Elev Gain</label>
+                    <input type="text" placeholder="meters" class="hidden" id="elevGain">
+                    <input type="submit" class="hidden">
+                </form>
+                
+                <ul class="workouts">   
+                    
+                </ul>
+                      
+        </div>
+        <div class="map-container"></div>
+    </div>
+</body>
+</html>
